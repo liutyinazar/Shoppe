@@ -1,0 +1,54 @@
+.jewelry-detail {
+    padding: 128px 0;
+    .jewelry-detail-wrapper {
+        display: flex;
+        gap: 62px;
+        .jewelry-images {
+            img {
+                border-radius: 8px;
+
+                object-fit: cover;
+                object-position: center;
+            }
+            display: flex;
+            gap: 40px;
+            .thumbnail-container {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+        .jewelry-info {
+            .jewelry-info-title {
+                font-size: 26px;
+                line-height: 35px;
+                margin-bottom: 25px;
+            }
+
+            .jewelry-info-price{
+                font-size: 20px;
+                line-height: 26px;
+                color: #A18A68;
+                margin-bottom: 64px;
+            }
+
+            .star-rating {
+                display: flex;
+                gap: 10px;
+                margin-bottom: 20px;
+            }
+
+            .last-review {
+                color: #707070;
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 48px;
+            }
+
+            .add-cart {
+                display: flex;
+                gap: 22px;
+            }
+        }
+    }
+}
